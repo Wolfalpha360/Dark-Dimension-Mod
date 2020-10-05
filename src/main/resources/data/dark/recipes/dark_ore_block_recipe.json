@@ -1,0 +1,42 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dark:dark_gem"
+    },
+    "1": {
+      "item": "dark:dark_gem"
+    },
+    "2": {
+      "item": "dark:dark_gem"
+    },
+    "3": {
+      "item": "dark:dark_gem"
+    },
+    "4": {
+      "item": "dark:dark_gem"
+    },
+    "5": {
+      "item": "dark:dark_gem"
+    },
+    "6": {
+      "item": "dark:dark_gem"
+    },
+    "7": {
+      "item": "dark:dark_gem"
+    },
+    "8": {
+      "item": "dark:dark_gem"
+    }
+  },
+  "result": {
+    "item": "dark:dark_ore_block",
+    "count": 1
+  }
+}

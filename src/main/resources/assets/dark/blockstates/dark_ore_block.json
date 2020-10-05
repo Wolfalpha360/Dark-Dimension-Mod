@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dark:block/dark_ore_block"
+    }
+  }
+}

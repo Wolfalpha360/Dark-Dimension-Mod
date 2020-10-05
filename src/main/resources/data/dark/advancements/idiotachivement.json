@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "dark:darkstone"
+    },
+    "title": {
+      "translate": "advancements.idiotachivement.title"
+    },
+    "description": {
+      "translate": "advancements.idiotachivement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "idiotachivement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dark:dark_diminsion"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

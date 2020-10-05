@@ -1,0 +1,13 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dark:heart_ofdarkness"
+    }
+  ],
+  "result": {
+    "item": "dark:dark_diminsion",
+    "count": 1
+  }
+}

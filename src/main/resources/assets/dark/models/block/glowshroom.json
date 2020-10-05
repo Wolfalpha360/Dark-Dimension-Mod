@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dark:blocks/mushroom_brown",
+    "particle": "dark:blocks/mushroom_brown"
+  }
+}

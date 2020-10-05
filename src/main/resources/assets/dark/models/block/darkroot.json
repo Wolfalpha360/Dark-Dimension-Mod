@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dark:blocks/log_acacia_top",
+    "up": "dark:blocks/log_acacia_top",
+    "north": "dark:blocks/log_acacia",
+    "east": "dark:blocks/log_acacia",
+    "south": "dark:blocks/log_acacia",
+    "west": "dark:blocks/log_acacia",
+    "particle": "dark:blocks/log_acacia_top"
+  }
+}

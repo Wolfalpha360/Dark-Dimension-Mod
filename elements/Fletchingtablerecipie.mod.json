@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkrootplanks"
+      },
+      {
+        "value": "CUSTOM:Darkrootplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkrootplanks"
+      },
+      {
+        "value": "CUSTOM:Darkrootplanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.FLETCHING_TABLE"
+    },
+    "name": "fletchingtablerecipie",
+    "namespace": "mod"
+  }
+}

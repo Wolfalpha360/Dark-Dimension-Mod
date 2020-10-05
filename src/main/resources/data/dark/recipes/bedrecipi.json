@@ -1,0 +1,32 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "item": "dark:darkrootplanks"
+    },
+    "4": {
+      "item": "dark:darkrootplanks"
+    },
+    "5": {
+      "item": "dark:darkrootplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_bed",
+    "count": 1
+  }
+}

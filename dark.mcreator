@@ -1,0 +1,861 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid"
+    },
+    {
+      "name": "DarkDiminsion",
+      "type": "dimension",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diminsion"
+    },
+    {
+      "name": "Darkstone",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkstone"
+    },
+    {
+      "name": "Idiotachivement",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "idiotachivement"
+    },
+    {
+      "name": "CrushedDarkstone",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crushed_darkstone"
+    },
+    {
+      "name": "Darkland",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkland"
+    },
+    {
+      "name": "Darknessheart",
+      "type": "plant",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darknessheart"
+    },
+    {
+      "name": "HeartOfdarkness",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heart_ofdarkness"
+    },
+    {
+      "name": "Darknessportalkeycraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darknessportalkeycraft"
+    },
+    {
+      "name": "Thelost",
+      "type": "mob",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thelost"
+    },
+    {
+      "name": "DarkDiminsionPortalTriggerUsed",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diminsion_portal_trigger_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkberrry",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkberrry"
+    },
+    {
+      "name": "Darkberrryblock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkberrryblock"
+    },
+    {
+      "name": "DarkberrryFoodEaten",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkberrry_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkroot",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkroot"
+    },
+    {
+      "name": "Darkrootplanks",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkrootplanks"
+    },
+    {
+      "name": "Darkrootplanksrecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkrootplanksrecipe"
+    },
+    {
+      "name": "Stickrecipie",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stickrecipie"
+    },
+    {
+      "name": "Woodpicrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodpicrecipe"
+    },
+    {
+      "name": "Woodswordrecie",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodswordrecie"
+    },
+    {
+      "name": "Woodenshovel",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodenshovel"
+    },
+    {
+      "name": "Woodenaxerecipie",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodenaxerecipie"
+    },
+    {
+      "name": "Woodenhoerecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodenhoerecipe"
+    },
+    {
+      "name": "Craftingtabelrecipie",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftingtabelrecipie"
+    },
+    {
+      "name": "Darkrootplanksslab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkrootplanksslab"
+    },
+    {
+      "name": "Darkrootslabrecipie",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkrootslabrecipie"
+    },
+    {
+      "name": "Barrelcraftingrecipei",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barrelcraftingrecipei"
+    },
+    {
+      "name": "Bedrecipi",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrecipi"
+    },
+    {
+      "name": "Beehiverecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beehiverecipe"
+    },
+    {
+      "name": "Boatrecipie",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boatrecipie"
+    },
+    {
+      "name": "Bookshelfrecipie",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bookshelfrecipie"
+    },
+    {
+      "name": "Bowlrecipi",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bowlrecipi"
+    },
+    {
+      "name": "Cartogrophytablerecipi",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cartogrophytablerecipi"
+    },
+    {
+      "name": "Chestrecipi",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chestrecipi"
+    },
+    {
+      "name": "Fletchingtablerecipie",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fletchingtablerecipie"
+    },
+    {
+      "name": "Grindingstonerecipi",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grindingstonerecipi"
+    },
+    {
+      "name": "Jukeboxrecipi",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jukeboxrecipi"
+    },
+    {
+      "name": "Loomrecipie",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loomrecipie"
+    },
+    {
+      "name": "Noteblockrecipie",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noteblockrecipie"
+    },
+    {
+      "name": "Pistonrecipie",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pistonrecipie"
+    },
+    {
+      "name": "Sheildrecipie",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sheildrecipie"
+    },
+    {
+      "name": "Signrecipie",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "signrecipie"
+    },
+    {
+      "name": "Smithingtablerecipie",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smithingtablerecipie"
+    },
+    {
+      "name": "Tripwirerecipie",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tripwirerecipie"
+    },
+    {
+      "name": "Fencegaterecipie",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fencegaterecipie"
+    },
+    {
+      "name": "Doorrecipie",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doorrecipie"
+    },
+    {
+      "name": "Woodfencerecipie",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodfencerecipie"
+    },
+    {
+      "name": "Darkstairs",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkstairs"
+    },
+    {
+      "name": "Darkstairsrecipie",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkstairsrecipie"
+    },
+    {
+      "name": "Buttonrecipie",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "buttonrecipie"
+    },
+    {
+      "name": "Woodenpressureplaterecipie",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodenpressureplaterecipie"
+    },
+    {
+      "name": "Trapdoorrecipie",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trapdoorrecipie"
+    },
+    {
+      "name": "Darkplankfuel",
+      "type": "fuel",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkplankfuel"
+    },
+    {
+      "name": "Darkleavs",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkleavs"
+    },
+    {
+      "name": "Cobblestonerecipie",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobblestonerecipie"
+    },
+    {
+      "name": "DarkGem",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_gem"
+    },
+    {
+      "name": "DarkOre",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ore"
+    },
+    {
+      "name": "DarkOreBlock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ore_block"
+    },
+    {
+      "name": "DarkOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ore_block_recipe"
+    },
+    {
+      "name": "DarkBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_block_ore_recipe"
+    },
+    {
+      "name": "DarkOreSmelting",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ore_smelting"
+    },
+    {
+      "name": "DarkArmor",
+      "type": "armor",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DarkArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_armor_helmet_recipe"
+    },
+    {
+      "name": "DarkArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_armor_body_recipe"
+    },
+    {
+      "name": "DarkArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_armor_leggings_recipe"
+    },
+    {
+      "name": "DarkArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_armor_boots_recipe"
+    },
+    {
+      "name": "DarkPickaxe",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_pickaxe"
+    },
+    {
+      "name": "DarkAxe",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_axe"
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword"
+    },
+    {
+      "name": "DarkShovel",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_shovel"
+    },
+    {
+      "name": "DarkHoe",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_hoe"
+    },
+    {
+      "name": "DarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_pickaxe_recipe"
+    },
+    {
+      "name": "DarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_axe_recipe"
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword_recipe"
+    },
+    {
+      "name": "DarkShovelRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_shovel_recipe"
+    },
+    {
+      "name": "DarkHoeRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_hoe_recipe"
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Glowshroom",
+      "type": "plant",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom"
+    },
+    {
+      "name": "Alittlebitoflightachivement",
+      "type": "achievement",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alittlebitoflightachivement"
+    },
+    {
+      "name": "GlowshroomPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_plant_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Barrenlands",
+      "type": "biome",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barrenlands"
+    },
+    {
+      "name": "Quicksand",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quicksand"
+    },
+    {
+      "name": "QuicksandEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quicksand_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.dark.dark_armor_chestplate": "Dark Chestplate",
+      "block.dark.darkrootplanksslab": "Dark root slab",
+      "block.dark.darknessheart": "Darkness Heart",
+      "block.dark.dark_ore_block": "Block of Dark",
+      "item.dark.dark_diminsion": "Darkness Key",
+      "item.sketch.sketch": "Sketch Portal Igniter",
+      "block.dark.darkrootplanks": "Dark root planks",
+      "block.dark.glowshroom": "Glow shroom",
+      "item.dark.dark_hoe": "Dark Hoe",
+      "item.dark.dark_shovel": "Dark Shovel",
+      "block.dark.quicksand": "Quicksand",
+      "entity.dark.thelost": "The Lost",
+      "advancements.alittlebitoflightachivement.title": "Alittle bit of light",
+      "block.dark.crushed_darkstone": "Crushed Darkstone",
+      "advancements.alittlebitoflightachivement.descr": "Find a glow shroom",
+      "item.dark.heart_ofdarkness": "Heart Of Darkness",
+      "block.dark.darkberrryblock": "Dark berry block",
+      "item.dark.dark_axe": "Dark Axe",
+      "block.dark.darkroot": "Dark root",
+      "item.dark.dark_gem": "Dark gem",
+      "item.dark.dark_armor_helmet": "Dark Helmet",
+      "item.dark.darkberrry": "Dark berrry",
+      "block.dark.darkstairs": "Dark root stairs",
+      "item.dark.dark_armor_leggings": "Dark Leggings",
+      "item.test.sketch": "Sketch Portal Igniter",
+      "block.sketch.sketchsoil": "Sketch Stone",
+      "item.dark.dark_pickaxe": "Dark Pickaxe",
+      "item.dark.acid_bucket": "Acid Bucket",
+      "block.dark.dark_ore": "Dark Ore",
+      "advancements.idiotachivement.title": "Danger Lurks",
+      "fluid.acid": "Acid",
+      "item.dark.thelost": "The Lost Spawn Egg",
+      "item.dark.dark_sword": "Dark Sword",
+      "block.dark.darkstone": "Dark Stone",
+      "advancements.idiotachivement.descr": "Go to the Dark Dimension",
+      "block.dark.darkleavs": "Darkleavs",
+      "item.dark.dark_armor_boots": "Dark Boots",
+      "item.sketch.acid_bucket": "Acid Bucket"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "dark",
+    "modName": "Dark Dimension Mod",
+    "version": "1.1.7",
+    "author": "Wolfalpha360",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "637373667921797740",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Adds a new Dimension the dark dimmension",
+    "modElementsPackage": "dark",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

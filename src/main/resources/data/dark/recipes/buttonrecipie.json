@@ -1,0 +1,16 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "dark:darkrootplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_button",
+    "count": 1
+  }
+}

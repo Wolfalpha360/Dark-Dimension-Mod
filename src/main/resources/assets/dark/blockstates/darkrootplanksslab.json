@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dark:block/darkrootplanksslab"
+    },
+    "type=top": {
+      "model": "dark:block/darkrootplanksslab_top"
+    },
+    "type=double": {
+      "model": "dark:block/darkrootplanksslab_full"
+    }
+  }
+}

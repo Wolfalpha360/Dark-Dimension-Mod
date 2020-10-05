@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "dark:block/darkroot"
+    },
+    "facing=north": {
+      "model": "dark:block/darkroot"
+    },
+    "facing=east": {
+      "model": "dark:block/darkroot",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "dark:block/darkroot",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "dark:block/darkroot",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "dark:block/darkroot",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

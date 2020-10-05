@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dark:blocks/darknessheartplantexture",
+    "particle": "dark:blocks/darknessheartplantexture"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "dark:darkrootplanks"
+    },
+    "2": {
+      "item": "dark:darkrootplanks"
+    },
+    "3": {
+      "item": "dark:darkrootplanks"
+    },
+    "4": {
+      "item": "dark:darkrootplanks"
+    },
+    "5": {
+      "item": "dark:darkrootplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_boat",
+    "count": 1
+  }
+}

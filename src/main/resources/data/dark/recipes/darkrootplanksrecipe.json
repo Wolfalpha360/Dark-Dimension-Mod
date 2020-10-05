@@ -1,0 +1,13 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dark:darkroot"
+    }
+  ],
+  "result": {
+    "item": "dark:darkrootplanks",
+    "count": 4
+  }
+}

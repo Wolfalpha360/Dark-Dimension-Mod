@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dark:blocks/planks_acacia",
+    "particle": "dark:blocks/planks_acacia"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "dark:darkrootplanks"
+    },
+    "2": {
+      "item": "dark:darkrootplanks"
+    },
+    "4": {
+      "item": "dark:darkrootplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:bowl",
+    "count": 1
+  }
+}

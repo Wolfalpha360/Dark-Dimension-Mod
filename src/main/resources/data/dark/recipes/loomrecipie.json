@@ -1,0 +1,26 @@
+{
+  "group": "dark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "dark:darkrootplanks"
+    },
+    "3": {
+      "item": "dark:darkrootplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:loom",
+    "count": 1
+  }
+}

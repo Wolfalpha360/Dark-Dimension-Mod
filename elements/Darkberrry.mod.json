@@ -1,0 +1,27 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkberrirtexturre",
+    "customModelName": "Normal",
+    "name": "Dark berrry",
+    "specialInfo": [
+      "An odd berry might be edible"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "DarkberrryFoodEaten"
+    }
+  }
+}
